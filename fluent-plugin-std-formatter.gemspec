@@ -1,7 +1,7 @@
 # coding: utf-8
 Gem::Specification.new do |gem|
   gem.name          = "fluent-plugin-std-formatter"
-  gem.version       = "0.0.4"
+  gem.version       = "0.0.5"
   gem.authors       = ["Alexey Panaetov"]
   gem.email         = ["panaetovaa@gmail.com"]
   gem.description   = %q{}
