@@ -3,7 +3,7 @@ require 'fluent/formatter'
 module Fluent
   module TextFormatter
     class IvideonLogsFormatter < Formatter
-      Plugin.register_formatter("formatter_std", self)
+      Plugin.register_formatter("std", self)
 
       def format(tag, time, record)
         if record["stack_trace"] == "None"
